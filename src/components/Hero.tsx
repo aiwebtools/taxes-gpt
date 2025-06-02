@@ -79,7 +79,7 @@ const Hero = () => {
           </div>
 
           <div ref={videoRef} className="order-1 lg:order-2">
-            <div className="video-container rounded-lg overflow-hidden animate-float pixel-corners">
+            <div className="rounded-lg overflow-hidden animate-float pixel-corners">
               <iframe
                 width="100%"
                 height="315"
