@@ -1,6 +1,6 @@
 
 import React from "react";
-import { AlertTriangle } from "lucide-react";
+import { AlertTriangle, BookOpen } from "lucide-react";
 
 const Disclaimer = () => {
   return (
@@ -20,6 +20,18 @@ const Disclaimer = () => {
           <p className="text-gray-300 max-w-3xl mx-auto text-lg">
             Important information about the use of Taxes GPT and its limitations.
           </p>
+        </div>
+
+        <div className="cyber-card rounded-lg p-8 mb-10">
+          <div className="flex items-start mb-6">
+            <BookOpen className="h-6 w-6 text-cyber-yellow mr-3 flex-shrink-0 mt-1" />
+            <h3 className="text-xl font-bold cyber-font">Educational Purpose</h3>
+          </div>
+          <div className="text-gray-300 mb-8">
+            <p className="text-lg">
+              <strong>This tool is provided for informational, educational, and research purposes only.</strong> The content and features are designed to help users understand tax concepts and explore potential strategies, but should not be considered as professional tax advice.
+            </p>
+          </div>
         </div>
 
         <div className="cyber-card rounded-lg p-8 mb-10">
@@ -88,7 +100,7 @@ const Disclaimer = () => {
               </a>
               {" | "}
               <a
-                href="https://aiwebtools.ai/terms-of-services"
+                href="https://aiwebtools.lovable.app/disclaimers"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-cyber-blue hover:underline"

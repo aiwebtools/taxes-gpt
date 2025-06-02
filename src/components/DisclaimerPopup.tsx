@@ -46,6 +46,9 @@ const DisclaimerPopup = ({ onAgree, shown }: DisclaimerPopupProps) => {
               </h2>
               
               <div className="space-y-4 text-gray-300 mb-6 max-h-[40vh] overflow-y-auto scrollbar-none p-2">
+                <div className="text-center text-sm text-cyber-yellow mb-4">
+                  <p><strong>For informational, educational, and research purposes only</strong></p>
+                </div>
                 <p>
                   By using Taxes GPT, you acknowledge and agree to the following:
                 </p>
@@ -60,7 +63,16 @@ const DisclaimerPopup = ({ onAgree, shown }: DisclaimerPopupProps) => {
                     <strong>No Data Storage:</strong> Your financial information is processed securely and not permanently stored.
                   </li>
                   <li>
-                    <strong>Terms of Service:</strong> Use of this service is subject to our Terms of Service and Privacy Policy.
+                    <strong>Terms of Service:</strong> Use of this service is subject to our{" "}
+                    <a
+                      href="https://aiwebtools.lovable.app/disclaimers"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-cyber-blue hover:underline"
+                    >
+                      Terms of Service
+                    </a>{" "}
+                    and Privacy Policy.
                   </li>
                 </ul>
               </div>

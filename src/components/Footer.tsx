@@ -113,7 +113,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://aiwebtools.ai/terms-of-services"
+                  href="https://aiwebtools.lovable.app/disclaimers"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-cyber-blue transition-colors"
@@ -147,6 +147,10 @@ const Footer = () => {
               More AI Tools <ExternalLink className="h-3 w-3 ml-2" />
             </a>
           </div>
+        </div>
+        
+        <div className="mt-8 text-center text-sm text-gray-500">
+          <p>For informational, educational, and research purposes only.</p>
         </div>
       </div>
     </footer>
