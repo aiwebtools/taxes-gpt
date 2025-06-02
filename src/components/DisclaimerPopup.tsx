@@ -24,13 +24,13 @@ const DisclaimerPopup = ({ onAgree, shown }: DisclaimerPopupProps) => {
   return (
     <AnimatePresence>
       {shown && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4">
           <motion.div
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.9, opacity: 0 }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
-            className="relative w-full max-w-md mx-auto"
+            className="relative w-full max-w-lg mx-auto"
           >
             <div className="relative cyber-card p-6 md:p-8 overflow-visible">
               {/* Top accent line */}
@@ -45,14 +45,15 @@ const DisclaimerPopup = ({ onAgree, shown }: DisclaimerPopupProps) => {
                 <span className="cyber-gradient-text">DISCLAIMER</span>
               </h2>
               
-              <div className="space-y-4 text-gray-300 mb-6 max-h-[40vh] overflow-y-auto scrollbar-none p-2">
-                <div className="text-center text-sm text-cyber-yellow mb-4">
-                  <p><strong>For informational, educational, and research purposes only</strong></p>
-                </div>
-                <p>
+              <div className="text-center text-sm text-cyber-yellow mb-4">
+                <p><strong>For informational, educational, and research purposes only</strong></p>
+              </div>
+              
+              <div className="space-y-3 text-gray-300 mb-6 max-h-[50vh] overflow-y-auto scrollbar-none">
+                <p className="text-sm">
                   By using Taxes GPT, you acknowledge and agree to the following:
                 </p>
-                <ul className="list-disc list-inside space-y-2 pl-2">
+                <ul className="list-disc list-inside space-y-2 text-sm">
                   <li>
                     <strong>Not Professional Advice:</strong> Information provided is for guidance only and does not replace professional tax consultation.
                   </li>
