@@ -1,0 +1,19 @@
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://taxes-gpt.lovable.app/sitemap.xml
+
+# Additional directives for better SEO
+Crawl-delay: 1
+
+# Allow access to CSS and JS files
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
