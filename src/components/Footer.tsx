@@ -139,7 +139,7 @@ const Footer = () => {
           
           <div className="flex items-center">
             <a
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-gradient-to-r from-cyber-blue to-cyber-purple text-white text-sm font-medium hover:opacity-90 transition-opacity"
