@@ -128,7 +128,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10">
           <div className="text-sm text-gray-400 mb-4 md:mb-0">
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-cyber-blue transition-colors"
