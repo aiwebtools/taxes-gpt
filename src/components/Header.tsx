@@ -52,7 +52,7 @@ const Header = () => {
               <div className="text-xs opacity-70 -mt-1">
                 Presented by{" "}
                 <a
-                  href="https://www.aiwebtools.ai"
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-cyber-blue transition-colors"
