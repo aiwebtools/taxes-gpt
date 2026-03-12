@@ -23,7 +23,7 @@ const Footer = () => {
                 <div className="text-xs opacity-70 -mt-1">
                   Presented by{" "}
                   <a
-                    href="https://www.aiwebtools.ai"
+                    href="https://aiwebtools.lovable.app/?via=aiwebtools"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-cyber-blue transition-colors"
@@ -86,7 +86,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.aiwebtools.ai"
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-cyber-blue transition-colors flex items-center"
@@ -128,7 +128,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10">
           <div className="text-sm text-gray-400 mb-4 md:mb-0">
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-cyber-blue transition-colors"
@@ -139,7 +139,7 @@ const Footer = () => {
           
           <div className="flex items-center">
             <a
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-gradient-to-r from-cyber-blue to-cyber-purple text-white text-sm font-medium hover:opacity-90 transition-opacity"
